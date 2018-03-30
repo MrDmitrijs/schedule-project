@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
+@SuppressWarnings("unused")
 public class HelloWorldController {
 
     @RequestMapping("/")
