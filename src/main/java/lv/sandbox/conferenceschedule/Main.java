@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableAutoConfiguration
 @ComponentScan
-public class ConferenceScheduleApplication {
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConferenceScheduleApplication.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 }

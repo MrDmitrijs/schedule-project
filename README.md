@@ -1,1 +1,1 @@
-# schedule-project
+# Web application for scheduling conferences
