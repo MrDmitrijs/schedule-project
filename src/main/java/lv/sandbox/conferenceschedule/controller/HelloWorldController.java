@@ -5,13 +5,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
+@RequestMapping("/")
 @SuppressWarnings("unused")
-public class HelloWorldController {
+class HelloWorldController {
 
-    @RequestMapping("/")
-    @ResponseBody
+    private static final String HOME_VIEW = "Home";
+
+    @RequestMapping
     String home() {
-        return "Hello World!";
+        return HOME_VIEW;
     }
 
     @RequestMapping("/dimon")
